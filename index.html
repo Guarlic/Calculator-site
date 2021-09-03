@@ -4,6 +4,8 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div align="center">
+        <h1>Calculator</h1>
         <div class="calculator">
             <form name="forms">
                 <input type="text" name="output" readonly>
@@ -25,6 +27,7 @@
                 <input type="button" class="dot" value="." onclick="document.forms.output.value+='.'">
                 <input type="button" class="operator" value="=" onclick="document.forms.output.value=eval(document.forms.output.value)">
             </form>
+        </div>
         </div>
     </body>
 </html>

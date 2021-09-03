@@ -12,7 +12,17 @@ body {
     height: 100vh;
 }
 
+h1 {
+    align: top;
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    margin-top: -200px;
+    padding-bottom: 70px;
+}
+
 .calculator {
+    width: 288px;
     border: 1px solid #eee;
     border-radius: 9px;
     background-color: #ccc;
