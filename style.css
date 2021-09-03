@@ -13,6 +13,7 @@ body {
 }
 
 h1 {
+    font: caption;
     align: top;
     text-align: center;
     color: white;
