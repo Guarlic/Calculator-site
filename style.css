@@ -46,6 +46,10 @@ body {
     background-color: orange;
 }
 
+.calculator form .zero {
+    grid-column: span 2;
+}
+
 .calculator form .dot {
     background-color: green;
 }
@@ -54,8 +58,4 @@ body {
     grid-column: span 4;
     text-align: right;
     padding: 0 10px;
-}
-
-.calculator form .result {
-    grid-column: span 2;
 }
