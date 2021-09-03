@@ -50,11 +50,14 @@ h1 {
 
 .calculator form .clear {
     background-color: #ed4848;
-    grid-column: span 3;
 }
 
 .calculator form .operator {
     background-color: orange;
+}
+
+.calculator form .operator2 {
+    background-color: lightgreen;
 }
 
 .calculator form .zero {
@@ -62,7 +65,7 @@ h1 {
 }
 
 .calculator form .dot {
-    background-color: green;
+    background-color: lightblue;
 }
 
 .calculator form input[type='text'] {
